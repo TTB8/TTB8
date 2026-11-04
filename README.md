@@ -49,7 +49,7 @@ Python pipelines that collect and structure product data at scale, with batching
 
 **Infra & tooling**
 <br>
-<img src="https://skillicons.dev/icons?i=docker,terraform,aws,githubactions,jest,vitest" />
+<img src="https://skillicons.dev/icons?i=docker,terraform,aws,githubactions" />
 
 Also: Stripe · Foundry · viem / wagmi / RainbowKit · Chainlink VRF & Automation · Playwright · Sentry · BullMQ · Render · pnpm monorepos
 
