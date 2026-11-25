@@ -8,6 +8,25 @@ Based in Barcelona 🇪🇸 · Working with teams worldwide
 
 ---
 
+## ⭐ Featured projects
+
+Open-source reference implementations of problems I solve for clients. Each one is tested end to end in CI and explains its design decisions.
+
+**[💳 subscription-billing-engine](https://github.com/TTB8/subscription-billing-engine)**
+Stripe subscription billing done properly: fixed-day cycles, prepaid terms, dunning, refunds, and webhooks and renewals that are safe to run twice. An append-only ledger means no charge can ever happen twice.
+
+`TypeScript` `NestJS` `Prisma` `PostgreSQL` `Stripe`
+
+**[⛓️ onchain-settlement-bridge](https://github.com/TTB8/onchain-settlement-bridge)**
+Keeps a database ledger authoritative while tokens settle on-chain. Compliance is enforced by the contracts, a transactional outbox handles delivery, reorgs are handled safely, and a reconciler catches anything the ledger didn't authorise.
+
+`Solidity` `Foundry` `viem` `NestJS` `Prisma` `PostgreSQL`
+
+**[🕸️ resilient-scraping-pipeline](https://github.com/TTB8/resilient-scraping-pipeline)**
+A polite web data pipeline that is resumable, reproducible and validated: a content-addressed cache, a deterministic offline parse, data contracts with quarantine, and block detection instead of evasion.
+
+`Python` `httpx` `Playwright` `pydantic` `DuckDB`
+
 ## 🛠️ What I do
 
 - **Product platforms, end to end.** Monorepo architectures with multiple apps (customer, admin, ops, partner portals) sharing one typed API and data model.
@@ -16,7 +35,7 @@ Based in Barcelona 🇪🇸 · Working with teams worldwide
 - **Production readiness.** CI/CD, infrastructure as code, monitoring, automated backups with restore drills, E2E and accessibility testing.
 - **Data pipelines.** Large-scale scraping and data extraction pipelines in Python that feed analytics and pricing teams.
 
-## 📂 Selected work
+## 📂 Client work
 
 **🌸 Subscription commerce platform** · *Perth, Australia*
 Flower subscription business built from scratch: storefront, customer app, operations dashboard and supplier portal on one NestJS API. 28-day billing cycles on Stripe, prepaid terms, Google sign-in with 2FA, transactional email, Playwright + axe test suite, and automated database backups with scheduled restore drills.
@@ -51,9 +70,9 @@ Python pipelines that collect and structure product data at scale, with batching
 <br>
 <img src="https://skillicons.dev/icons?i=docker,terraform,aws,githubactions" />
 
-Also: Stripe · Foundry · viem / wagmi / RainbowKit · Chainlink VRF & Automation · Playwright · Sentry · BullMQ · Render · pnpm monorepos
+Also: Stripe · Foundry · viem / wagmi / RainbowKit · Chainlink VRF & Automation · Playwright · httpx · pydantic · DuckDB · Sentry · BullMQ · Render · pnpm monorepos · uv
 
-## 🔍 Open-source samples
+## 🔍 Smaller samples
 
 | Repo | What it shows |
 |---|---|
@@ -64,4 +83,6 @@ Also: Stripe · Foundry · viem / wagmi / RainbowKit · Chainlink VRF & Automati
 
 ## 📫 Let's work together
 
-Have a project in mind? Reach out and tell me what you're building.
+Have a project in mind? Message me on LinkedIn and tell me what you're building.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stefano-goetschel-viniegra-9404239a/)
